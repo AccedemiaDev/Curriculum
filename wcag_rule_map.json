@@ -1,74 +1,83 @@
 {
   "1": {
-    "name": "Perceivable",
-    "description": "Information and user interface components must be presentable to users in ways they can perceive.",
+    "name": "Perceptible",
+    "description": "La información y los componentes de la interfaz de usuario deben ser presentables para los usuarios de manera que puedan percibirlos.",
     "guidelines": {
       "1": {
-        "name": "Text Alternatives",
-        "description": "Provide text alternatives for any non-text content.",
+        "name": "Alternativas de Texto",
+        "description": "Proporcionar alternativas en texto para cualquier contenido no textual.",
         "criteria": {
           "1": {
-            "name": "Non-text Content",
+            "name": "Contenido No Textual",
             "level": "A",
-            "description": "All non-text content has a text alternative that serves the equivalent purpose."
+            "description": "Todo contenido no textual tiene una alternativa en texto que cumple el mismo propósito.",
+            "title": "WCAG 1.1.1: Texto alternativo de productos"
           }
         }
       },
       "2": {
-        "name": "Time-based Media",
-        "description": "Provide alternatives for time-based media.",
+        "name": "Medios Basados en Tiempo",
+        "description": "Proporcionar alternativas para medios basados en tiempo.",
         "criteria": {
           "1": {
-            "name": "Audio-only and Video-only (Prerecorded)",
+            "name": "Solo Audio y Solo Video (Pregrabado)",
             "level": "A",
-            "description": "Alternatives are provided for time-based media."
+            "description": "Se proporcionan alternativas para medios basados en tiempo.",
+            "title": "WCAG 1.2.1: Entrevista del blog con transcripción"
           },
           "2": {
-            "name": "Captions (Prerecorded)",
+            "name": "Subtítulos (Pregrabados)",
             "level": "A",
-            "description": "Captions are provided for all prerecorded audio content in synchronized media."
+            "description": "Se proporcionan subtítulos para todo el contenido de audio pregrabado en medios sincronizados.",
+            "title": "WCAG 1.2.2: Anuncio con subtítulos"
           },
           "3": {
-            "name": "Audio Description or Media Alternative (Prerecorded)",
+            "name": "Descripción de Audio o Alternativa de Medio (Pregrabado)",
             "level": "A",
-            "description": "An alternative for time-based media or audio description is provided for prerecorded video content."
+            "description": "Se proporciona una alternativa para medios basados en tiempo o una descripción de audio para el contenido de video pregrabado.",
+            "title": "WCAG 1.2.3: Video de presentación con audio descriptivo"
           }
         }
       },
       "3": {
         "name": "Adaptable",
-        "description": "Create content that can be presented in different ways without losing information or structure.",
+        "description": "Crear contenido que pueda presentarse de diferentes maneras sin perder información ni estructura.",
         "criteria": {
           "1": {
-            "name": "Info and Relationships",
+            "name": "Información y Relaciones",
             "level": "A",
-            "description": "Information, structure, and relationships conveyed through presentation can be programmatically determined."
+            "description": "La información, estructura y relaciones transmitidas mediante la presentación pueden determinarse de forma programática.",
+            "title": "WCAG 1.3.1: Ayuda con encabezados correctos"
           },
           "2": {
-            "name": "Meaningful Sequence",
+            "name": "Secuencia Significativa",
             "level": "A",
-            "description": "When the sequence of content affects its meaning, a correct reading sequence can be programmatically determined."
+            "description": "Cuando la secuencia del contenido afecta su significado, puede determinarse de forma programática una secuencia correcta de lectura.",
+            "title": "WCAG 1.3.2: Orden linear en lista de enlaces de la navbar"
           },
           "3": {
-            "name": "Sensory Characteristics",
+            "name": "Características Sensoriales",
             "level": "A",
-            "description": "Instructions provided do not rely solely on sensory characteristics of components."
+            "description": "Las instrucciones proporcionadas no dependen únicamente de las características sensoriales de los componentes.",
+            "title": "WCAG 1.3.3: \"De click\" al crear cuenta"
           }
         }
       },
       "4": {
-        "name": "Distinguishable",
-        "description": "Make it easier for users to see and hear content including separating foreground from background.",
+        "name": "Distinguible",
+        "description": "Facilitar que los usuarios puedan ver y escuchar el contenido, incluyendo la separación entre primer plano y fondo.",
         "criteria": {
           "1": {
-            "name": "Use of Color",
+            "name": "Uso del Color",
             "level": "A",
-            "description": "Color is not used as the only visual means of conveying information."
+            "description": "El color no se utiliza como único medio visual para transmitir información.",
+            "title": "WCAG 1.4.1: Indicación de error"
           },
           "2": {
-            "name": "Audio Control",
+            "name": "Control de Audio",
             "level": "A",
-            "description": "If any audio plays automatically for more than 3 seconds, a mechanism is available to pause or stop it."
+            "description": "Si algún audio se reproduce automáticamente durante más de 3 segundos, se dispone de un mecanismo para pausarlo o detenerlo.",
+            "title": "WCAG 1.4.2: Música al iniciar el sitio web"
           }
         }
       }
@@ -76,176 +85,196 @@
   },
   "2": {
     "name": "Operable",
-    "description": "User interface components and navigation must be operable.",
+    "description": "Los componentes de la interfaz de usuario y la navegación deben ser operables.",
     "guidelines": {
       "1": {
-        "name": "Keyboard Accessible",
-        "description": "Make all functionality available from a keyboard.",
+        "name": "Accesible con Teclado",
+        "description": "Hacer que toda la funcionalidad esté disponible desde un teclado.",
         "criteria": {
           "1": {
-            "name": "Keyboard",
+            "name": "Teclado",
             "level": "A",
-            "description": "All functionality is available from a keyboard."
+            "description": "Toda la funcionalidad está disponible desde un teclado.",
+            "title": "WCAG 2.1.1: [Nombre de la lección]"
           },
           "2": {
-            "name": "No Keyboard Trap",
+            "name": "Sin Trampa de Teclado",
             "level": "A",
-            "description": "Keyboard focus can be moved away from a component using only a keyboard."
+            "description": "El foco del teclado puede moverse fuera de un componente utilizando únicamente el teclado.",
+            "title": "WCAG 2.1.2: Trampa de teclado en un producto"
           },
           "4": {
-            "name": "Character Key Shortcuts",
+            "name": "Atajos de Teclas de Carácter",
             "level": "A",
-            "description": "If a keyboard shortcut uses only letter, punctuation, number, or symbol characters, then the shortcut can be turned off, remapped, or is only active when the component is focused."
+            "description": "Si un atajo de teclado utiliza solo letras, signos de puntuación, números o símbolos, entonces puede desactivarse, reasignarse o estar activo solo cuando el componente tiene el foco.",
+            "title": "WCAG 2.1.4: Shortcut para carrito de compras"
           }
         }
       },
       "2": {
-        "name": "Enough Time",
-        "description": "Provide users enough time to read and use content.",
+        "name": "Tiempo Suficiente",
+        "description": "Proporcionar a los usuarios suficiente tiempo para leer y usar el contenido.",
         "criteria": {
           "1": {
-            "name": "Timing Adjustable",
+            "name": "Tiempo Ajustable",
             "level": "A",
-            "description": "Users are given adequate time to interact with web content."
+            "description": "Se otorga a los usuarios tiempo suficiente para interactuar con el contenido web.",
+            "title": "WCAG 2.2.1: Contador para pago"
           },
           "2": {
-            "name": "Pause, Stop, Hide",
+            "name": "Pausar, Detener, Ocultar",
             "level": "A",
-            "description": "Users can pause, stop, or hide content that starts automatically and lasts more than 5 seconds."
+            "description": "Los usuarios pueden pausar, detener u ocultar contenido que se inicie automáticamente y dure más de 5 segundos.",
+            "title": "WCAG 2.2.2: [Nombre de la lección]"
           }
         }
       },
       "3": {
-        "name": "Seizures and Physical Reactions",
-        "description": "Do not design content in a way that is known to cause seizures or physical reactions.",
+        "name": "Convulsiones y Reacciones Físicas",
+        "description": "No diseñar contenido de manera que se sepa que pueda causar convulsiones o reacciones físicas.",
         "criteria": {
           "1": {
-            "name": "Three Flashes or Below Threshold",
+            "name": "Tres Destellos o por Debajo del Umbral",
             "level": "A",
-            "description": "Web pages do not contain anything that flashes more than three times in any one second period."
+            "description": "Las páginas web no contienen nada que destelle más de tres veces en un período de un segundo.",
+            "title": "WCAG 2.3.1: Título parpadeante"
           }
         }
       },
       "4": {
-        "name": "Navigable",
-        "description": "Provide ways to help users navigate, find content, and determine where they are.",
+        "name": "Navegable",
+        "description": "Proporcionar formas de ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se encuentran.",
         "criteria": {
           "1": {
-            "name": "Bypass Blocks",
+            "name": "Saltar Bloques",
             "level": "A",
-            "description": "A mechanism is available to bypass blocks of content that are repeated on multiple Web pages."
+            "description": "Existe un mecanismo para saltar bloques de contenido que se repiten en múltiples páginas web.",
+            "title": "WCAG 2.4.1: Saltar contenido"
           },
           "2": {
-            "name": "Page Titled",
+            "name": "Título de Página",
             "level": "A",
-            "description": "Web pages have titles that describe topic or purpose."
+            "description": "Las páginas web tienen títulos que describen el tema o propósito.",
+            "title": "WCAG 2.4.2: Página de titulo dinámico"
           },
           "3": {
-            "name": "Focus Order",
+            "name": "Orden de Foco",
             "level": "A",
-            "description": "Components receive focus in an order that preserves meaning and operability."
+            "description": "Los componentes reciben el foco en un orden que preserva el significado y la operabilidad.",
+            "title": "WCAG 2.4.3: Tabulación del formulario de dirección"
           },
           "4": {
-            "name": "Link Purpose (In Context)",
+            "name": "Propósito del Enlace (en Contexto)",
             "level": "A",
-            "description": "The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context."
+            "description": "El propósito de cada enlace puede determinarse a partir del texto del enlace por sí solo o junto con el contexto del enlace determinado programáticamente.",
+            "title": "WCAG 2.4.4: \"Leer mas\" sobre noticias"
           }
         }
       },
       "5": {
-        "name": "Input Modalities",
-        "description": "Make it easier for users to operate functionality through various inputs beyond keyboard.",
+        "name": "Modalidades de Entrada",
+        "description": "Facilitar a los usuarios operar la funcionalidad mediante varias entradas más allá del teclado.",
         "criteria": {
           "1": {
-            "name": "Pointer Gestures",
+            "name": "Gestos de Puntero",
             "level": "A",
-            "description": "All functionality that uses multipoint or path-based gestures can be operated with a single pointer."
+            "description": "Toda funcionalidad que utiliza gestos multipunto o basados en trayectorias puede operarse con un solo puntero.",
+            "title": "WCAG 2.5.1: Carrusel de imágenes"
           },
           "2": {
-            "name": "Pointer Cancellation",
+            "name": "Cancelación de Puntero",
             "level": "A",
-            "description": "Functions that can be operated using a single pointer are completed when the user releases the pointer."
+            "description": "Las funciones que pueden operarse con un solo puntero se completan cuando el usuario suelta el puntero.",
+            "title": "WCAG 2.5.2: Cancelar compra"
           },
           "3": {
-            "name": "Label in Name",
+            "name": "Etiqueta en el Nombre",
             "level": "A",
-            "description": "For user interface components with labels that include text or images of text, the name contains the text that is presented visually."
+            "description": "Para componentes de la interfaz de usuario con etiquetas que incluyen texto o imágenes de texto, el nombre contiene el texto que se presenta visualmente.",
+            "title": "WCAG 2.5.3: Añadir producto descriptivow"
           },
           "4": {
-            "name": "Motion Actuation",
+            "name": "Activación por Movimiento",
             "level": "A",
-            "description": "Functionality that can be operated by device motion or user motion can also be operated by user interface components."
+            "description": "La funcionalidad que puede operarse mediante el movimiento del dispositivo o del usuario también puede operarse mediante componentes de la interfaz de usuario.",
+            "title": "WCAG 2.5.4: [Nombre de la lección]"
           }
         }
       }
     }
   },
   "3": {
-    "name": "Understandable",
-    "description": "Information and the operation of the user interface must be understandable.",
+    "name": "Comprensible",
+    "description": "La información y el funcionamiento de la interfaz de usuario deben ser comprensibles.",
     "guidelines": {
       "1": {
-        "name": "Readable",
-        "description": "Make text content readable and understandable.",
+        "name": "Legible",
+        "description": "Hacer que el contenido textual sea legible y comprensible.",
         "criteria": {
           "1": {
-            "name": "Language of Page",
+            "name": "Idioma de la Página",
             "level": "A",
-            "description": "The default human language of each page can be programmatically determined."
+            "description": "El idioma humano predeterminado de cada página puede determinarse de forma programática.",
+            "title": "WCAG 3.1.1: Declarar el idioma de la pantalla"
           }
         }
       },
       "2": {
-        "name": "Predictable",
-        "description": "Make Web pages appear and operate in predictable ways.",
+        "name": "Predecible",
+        "description": "Hacer que las páginas web aparezcan y funcionen de manera predecible.",
         "criteria": {
           "1": {
-            "name": "On Focus",
+            "name": "Al Foco",
             "level": "A",
-            "description": "When any user interface component receives focus, it does not initiate a change of context."
+            "description": "Cuando cualquier componente de la interfaz recibe el foco, no inicia un cambio de contexto.",
+            "title": "WCAG 3.2.1: Redirección automática de inicio de sesión"
           },
           "2": {
-            "name": "On Input",
+            "name": "Al Introducir Datos",
             "level": "A",
-            "description": "Changing the setting of any user interface component does not automatically cause a change of context."
+            "description": "Cambiar la configuración de cualquier componente de la interfaz no provoca automáticamente un cambio de contexto.",
+            "title": "WCAG 3.2.2: Activación automática de inicio de sesión"
           }
         }
       },
       "3": {
-        "name": "Input Assistance",
-        "description": "Help users avoid and correct mistakes.",
+        "name": "Asistencia en la Entrada",
+        "description": "Ayudar a los usuarios a evitar y corregir errores.",
         "criteria": {
           "1": {
-            "name": "Error Identification",
+            "name": "Identificación de Errores",
             "level": "A",
-            "description": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
+            "description": "Si se detecta automáticamente un error de entrada, se identifica el elemento en error y se describe el error al usuario en texto.",
+            "title": "WCAG 3.3.1: Identificación de errores"
           },
           "2": {
-            "name": "Labels or Instructions",
+            "name": "Etiquetas o Instrucciones",
             "level": "A",
-            "description": "Labels or instructions are provided when content requires user input."
+            "description": "Se proporcionan etiquetas o instrucciones cuando el contenido requiere la entrada del usuario.",
+            "title": "WCAG 3.3.2: [Nombre de la lección]"
           }
         }
       }
     }
   },
   "4": {
-    "name": "Robust",
-    "description": "Content must be robust enough to be interpreted by a wide variety of user agents, including assistive technologies.",
+    "name": "Robusto",
+    "description": "El contenido debe ser lo suficientemente robusto como para ser interpretado por una amplia variedad de agentes de usuario, incluidas las tecnologías de asistencia.",
     "guidelines": {
       "1": {
         "name": "Compatible",
-        "description": "Maximize compatibility with current and future user agents, including assistive technologies.",
+        "description": "Maximizar la compatibilidad con agentes de usuario actuales y futuros, incluidas las tecnologías de asistencia.",
         "criteria": {
           "1": {
-            "name": "Parsing",
+            "name": "Análisis Sintáctico",
             "level": "A",
-            "description": "In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, and IDs are unique."
+            "description": "En el contenido implementado mediante lenguajes de marcado, los elementos tienen etiquetas de inicio y fin completas, los elementos están anidados de acuerdo con sus especificaciones y los IDs son únicos."
           },
           "2": {
-            "name": "Name, Role, Value",
+            "name": "Nombre, Rol, Valor",
             "level": "A",
-            "description": "For all user interface components, the name and role can be programmatically determined; states, properties, and values can be programmatically set."
+            "description": "Para todos los componentes de la interfaz de usuario, el nombre y el rol pueden determinarse de forma programática; los estados, propiedades y valores pueden configurarse de manera programática.",
+            "title": "WCAG 4.1.2: Blob no legible"
           }
         }
       }
