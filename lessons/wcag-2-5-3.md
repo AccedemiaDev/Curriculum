@@ -1,4 +1,4 @@
-# WCAG 2.5.3: Añadir producto descriptivow
+# WCAG 2.5.3: Añadir producto descriptivo
 
 ## Descripción
 
