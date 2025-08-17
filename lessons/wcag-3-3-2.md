@@ -1,4 +1,4 @@
-# WCAG 3.3.2: [Nombre de la lección]
+# WCAG 3.3.2: Etiquetas para añadir una tarjeta
 
 ## Descripción
 
