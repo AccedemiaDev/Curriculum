@@ -1,4 +1,4 @@
-# WCAG 1.3.2: Orden linear en lista de enlaces de la navbar
+# WCAG 1.3.2: Orden linear de navegaciónb
 
 ## Descripción
 
