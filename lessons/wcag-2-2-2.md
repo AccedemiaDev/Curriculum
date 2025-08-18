@@ -1,4 +1,4 @@
-# WCAG 2.2.2: [Nombre de la lección]
+# WCAG 2.2.2: Anuncio parpadeante
 
 ## Descripción
 
