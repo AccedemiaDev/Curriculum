@@ -125,7 +125,7 @@
             "name": "Pausar, Detener, Ocultar",
             "level": "A",
             "description": "Los usuarios pueden pausar, detener u ocultar contenido que se inicie automáticamente y dure más de 5 segundos.",
-            "title": "WCAG 2.2.2: [Nombre de la lección]"
+            "title": "WCAG 2.2.2: Anuncio parpadeante"
           }
         }
       },
@@ -191,7 +191,7 @@
             "name": "Etiqueta en el Nombre",
             "level": "A",
             "description": "Para componentes de la interfaz de usuario con etiquetas que incluyen texto o imágenes de texto, el nombre contiene el texto que se presenta visualmente.",
-            "title": "WCAG 2.5.3: Añadir producto descriptivow"
+            "title": "WCAG 2.5.3: Añadir producto descriptivo"
           },
           "4": {
             "name": "Activación por Movimiento",
@@ -234,6 +234,12 @@
             "level": "A",
             "description": "Cambiar la configuración de cualquier componente de la interfaz no provoca automáticamente un cambio de contexto.",
             "title": "WCAG 3.2.2: Activación automática de inicio de sesión"
+          },
+          "6": {
+            "name": "Configuración Consistente",
+            "level": "A",
+            "description": "Los cambios en la configuración de cualquier componente de la interfaz de usuario no provocan un cambio de contexto automático a menos que el usuario haya sido advertido.",
+            "title": "WCAG 3.2.6: Botón de ayuda"
           }
         }
       },
@@ -251,7 +257,13 @@
             "name": "Etiquetas o Instrucciones",
             "level": "A",
             "description": "Se proporcionan etiquetas o instrucciones cuando el contenido requiere la entrada del usuario.",
-            "title": "WCAG 3.3.2: [Nombre de la lección]"
+            "title": "WCAG 3.3.2: Etiquetas para añadir una tarjeta"
+          },
+          "7": {
+            "name": "Identificación Redundante",
+            "level": "A",
+            "description": "Para contenido que requiere entrada del usuario, se proporcionan etiquetas o instrucciones redundantes cuando el contexto lo requiere.",
+            "title": "WCAG 3.3.7: Identificación redundante en formularios"
           }
         }
       }
@@ -265,11 +277,6 @@
         "name": "Compatible",
         "description": "Maximizar la compatibilidad con agentes de usuario actuales y futuros, incluidas las tecnologías de asistencia.",
         "criteria": {
-          "1": {
-            "name": "Análisis Sintáctico",
-            "level": "A",
-            "description": "En el contenido implementado mediante lenguajes de marcado, los elementos tienen etiquetas de inicio y fin completas, los elementos están anidados de acuerdo con sus especificaciones y los IDs son únicos."
-          },
           "2": {
             "name": "Nombre, Rol, Valor",
             "level": "A",
