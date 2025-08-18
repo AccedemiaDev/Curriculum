@@ -1,4 +1,4 @@
-# WCAG 2.4.3: Tabulación del formulario de dirección
+# WCAG 2.4.3: Tabulación de formulario
 
 ## Descripción
 
