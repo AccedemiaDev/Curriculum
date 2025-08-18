@@ -1,4 +1,4 @@
-# WCAG 3.2.2: Activación automática de inicio de sesión
+# WCAG 3.2.2: Activación de inicio de sesión
 
 ## Descripción
 
