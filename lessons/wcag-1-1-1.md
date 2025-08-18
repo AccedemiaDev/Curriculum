@@ -1,4 +1,4 @@
-# WCAG 1.1.1: Texto alternativo de productos
+# WCAG 1.1.1: Texto alternativo
 
 ## Descripción
 
