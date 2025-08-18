@@ -1,4 +1,4 @@
-# WCAG 1.2.1: Entrevista del blog con transcripción
+# WCAG 1.2.1: Entrevista con transcripción
 
 ## Descripción
 
