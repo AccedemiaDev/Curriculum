@@ -35,7 +35,7 @@
             "name": "Descripción de Audio o Alternativa de Medio (Pregrabado)",
             "level": "A",
             "description": "Se proporciona una alternativa para medios basados en tiempo o una descripción de audio para el contenido de video pregrabado.",
-            "title": "Video de presentación con audio descriptivo"
+            "title": "Presentación con audio descriptivo"
           }
         }
       },
@@ -53,7 +53,7 @@
             "name": "Secuencia Significativa",
             "level": "A",
             "description": "Cuando la secuencia del contenido afecta su significado, puede determinarse de forma programática una secuencia correcta de lectura.",
-            "title": "Orden linear en lista de enlaces de la navbar"
+            "title": "Orden linear de navegaciónb"
           },
           "3": {
             "name": "Características Sensoriales",
@@ -161,7 +161,7 @@
             "name": "Orden de Foco",
             "level": "A",
             "description": "Los componentes reciben el foco en un orden que preserva el significado y la operabilidad.",
-            "title": "Tabulación del formulario de dirección"
+            "title": "Tabulación de formulario"
           },
           "4": {
             "name": "Propósito del Enlace (en Contexto)",
@@ -227,13 +227,13 @@
             "name": "Al Foco",
             "level": "A",
             "description": "Cuando cualquier componente de la interfaz recibe el foco, no inicia un cambio de contexto.",
-            "title": "Redirección automática de inicio de sesión"
+            "title": "Redirección de inicio de sesión"
           },
           "2": {
             "name": "Al Introducir Datos",
             "level": "A",
             "description": "Cambiar la configuración de cualquier componente de la interfaz no provoca automáticamente un cambio de contexto.",
-            "title": "Activación automática de inicio de sesión"
+            "title": "Activación de inicio de sesión"
           },
           "6": {
             "name": "Configuración Consistente",
