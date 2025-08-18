@@ -1,4 +1,4 @@
-# WCAG 3.2.1: Redirección automática de inicio de sesión
+# WCAG 3.2.1: Redirección de inicio de sesión
 
 ## Descripción
 
