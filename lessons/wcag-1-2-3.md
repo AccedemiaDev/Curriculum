@@ -1,4 +1,4 @@
-# WCAG 1.2.3: Video de presentación con audio descriptivo
+# WCAG 1.2.3: Presentación con audio descriptivo
 
 ## Descripción
 
