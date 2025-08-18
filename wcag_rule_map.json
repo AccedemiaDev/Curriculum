@@ -11,7 +11,7 @@
             "name": "Contenido No Textual",
             "level": "A",
             "description": "Todo contenido no textual tiene una alternativa en texto que cumple el mismo propósito.",
-            "title": "WCAG 1.1.1: Texto alternativo de productos"
+            "title": "Texto alternativo"
           }
         }
       },
@@ -23,19 +23,19 @@
             "name": "Solo Audio y Solo Video (Pregrabado)",
             "level": "A",
             "description": "Se proporcionan alternativas para medios basados en tiempo.",
-            "title": "WCAG 1.2.1: Entrevista del blog con transcripción"
+            "title": "Entrevista del blog con transcripción"
           },
           "2": {
             "name": "Subtítulos (Pregrabados)",
             "level": "A",
             "description": "Se proporcionan subtítulos para todo el contenido de audio pregrabado en medios sincronizados.",
-            "title": "WCAG 1.2.2: Anuncio con subtítulos"
+            "title": "Anuncio con subtítulos"
           },
           "3": {
             "name": "Descripción de Audio o Alternativa de Medio (Pregrabado)",
             "level": "A",
             "description": "Se proporciona una alternativa para medios basados en tiempo o una descripción de audio para el contenido de video pregrabado.",
-            "title": "WCAG 1.2.3: Video de presentación con audio descriptivo"
+            "title": "Video de presentación con audio descriptivo"
           }
         }
       },
@@ -47,19 +47,19 @@
             "name": "Información y Relaciones",
             "level": "A",
             "description": "La información, estructura y relaciones transmitidas mediante la presentación pueden determinarse de forma programática.",
-            "title": "WCAG 1.3.1: Ayuda con encabezados correctos"
+            "title": "Ayuda con encabezados correctos"
           },
           "2": {
             "name": "Secuencia Significativa",
             "level": "A",
             "description": "Cuando la secuencia del contenido afecta su significado, puede determinarse de forma programática una secuencia correcta de lectura.",
-            "title": "WCAG 1.3.2: Orden linear en lista de enlaces de la navbar"
+            "title": "Orden linear en lista de enlaces de la navbar"
           },
           "3": {
             "name": "Características Sensoriales",
             "level": "A",
             "description": "Las instrucciones proporcionadas no dependen únicamente de las características sensoriales de los componentes.",
-            "title": "WCAG 1.3.3: \"De click\" al crear cuenta"
+            "title": "\"De click\" al crear cuenta"
           }
         }
       },
@@ -71,13 +71,13 @@
             "name": "Uso del Color",
             "level": "A",
             "description": "El color no se utiliza como único medio visual para transmitir información.",
-            "title": "WCAG 1.4.1: Indicación de error"
+            "title": "Indicación de error"
           },
           "2": {
             "name": "Control de Audio",
             "level": "A",
             "description": "Si algún audio se reproduce automáticamente durante más de 3 segundos, se dispone de un mecanismo para pausarlo o detenerlo.",
-            "title": "WCAG 1.4.2: Música al iniciar el sitio web"
+            "title": "Música al iniciar el sitio web"
           }
         }
       }
@@ -95,19 +95,19 @@
             "name": "Teclado",
             "level": "A",
             "description": "Toda la funcionalidad está disponible desde un teclado.",
-            "title": "WCAG 2.1.1: [Nombre de la lección]"
+            "title": "[Nombre de la lección]"
           },
           "2": {
             "name": "Sin Trampa de Teclado",
             "level": "A",
             "description": "El foco del teclado puede moverse fuera de un componente utilizando únicamente el teclado.",
-            "title": "WCAG 2.1.2: Trampa de teclado en un producto"
+            "title": "Trampa de teclado en un producto"
           },
           "4": {
             "name": "Atajos de Teclas de Carácter",
             "level": "A",
             "description": "Si un atajo de teclado utiliza solo letras, signos de puntuación, números o símbolos, entonces puede desactivarse, reasignarse o estar activo solo cuando el componente tiene el foco.",
-            "title": "WCAG 2.1.4: Shortcut para carrito de compras"
+            "title": "Shortcut para carrito de compras"
           }
         }
       },
@@ -119,13 +119,13 @@
             "name": "Tiempo Ajustable",
             "level": "A",
             "description": "Se otorga a los usuarios tiempo suficiente para interactuar con el contenido web.",
-            "title": "WCAG 2.2.1: Contador para pago"
+            "title": "Contador para pago"
           },
           "2": {
             "name": "Pausar, Detener, Ocultar",
             "level": "A",
             "description": "Los usuarios pueden pausar, detener u ocultar contenido que se inicie automáticamente y dure más de 5 segundos.",
-            "title": "WCAG 2.2.2: Anuncio parpadeante"
+            "title": "Anuncio parpadeante"
           }
         }
       },
@@ -137,7 +137,7 @@
             "name": "Tres Destellos o por Debajo del Umbral",
             "level": "A",
             "description": "Las páginas web no contienen nada que destelle más de tres veces en un período de un segundo.",
-            "title": "WCAG 2.3.1: Título parpadeante"
+            "title": "Título parpadeante"
           }
         }
       },
@@ -149,25 +149,25 @@
             "name": "Saltar Bloques",
             "level": "A",
             "description": "Existe un mecanismo para saltar bloques de contenido que se repiten en múltiples páginas web.",
-            "title": "WCAG 2.4.1: Saltar contenido"
+            "title": "Saltar contenido"
           },
           "2": {
             "name": "Título de Página",
             "level": "A",
             "description": "Las páginas web tienen títulos que describen el tema o propósito.",
-            "title": "WCAG 2.4.2: Página de titulo dinámico"
+            "title": "Página de titulo dinámico"
           },
           "3": {
             "name": "Orden de Foco",
             "level": "A",
             "description": "Los componentes reciben el foco en un orden que preserva el significado y la operabilidad.",
-            "title": "WCAG 2.4.3: Tabulación del formulario de dirección"
+            "title": "Tabulación del formulario de dirección"
           },
           "4": {
             "name": "Propósito del Enlace (en Contexto)",
             "level": "A",
             "description": "El propósito de cada enlace puede determinarse a partir del texto del enlace por sí solo o junto con el contexto del enlace determinado programáticamente.",
-            "title": "WCAG 2.4.4: \"Leer mas\" sobre noticias"
+            "title": "\"Leer mas\" sobre noticias"
           }
         }
       },
@@ -179,25 +179,25 @@
             "name": "Gestos de Puntero",
             "level": "A",
             "description": "Toda funcionalidad que utiliza gestos multipunto o basados en trayectorias puede operarse con un solo puntero.",
-            "title": "WCAG 2.5.1: Carrusel de imágenes"
+            "title": "Carrusel de imágenes"
           },
           "2": {
             "name": "Cancelación de Puntero",
             "level": "A",
             "description": "Las funciones que pueden operarse con un solo puntero se completan cuando el usuario suelta el puntero.",
-            "title": "WCAG 2.5.2: Cancelar compra"
+            "title": "Cancelar compra"
           },
           "3": {
             "name": "Etiqueta en el Nombre",
             "level": "A",
             "description": "Para componentes de la interfaz de usuario con etiquetas que incluyen texto o imágenes de texto, el nombre contiene el texto que se presenta visualmente.",
-            "title": "WCAG 2.5.3: Añadir producto descriptivo"
+            "title": "Añadir producto descriptivo"
           },
           "4": {
             "name": "Activación por Movimiento",
             "level": "A",
             "description": "La funcionalidad que puede operarse mediante el movimiento del dispositivo o del usuario también puede operarse mediante componentes de la interfaz de usuario.",
-            "title": "WCAG 2.5.4: [Nombre de la lección]"
+            "title": "[Nombre de la lección]"
           }
         }
       }
@@ -215,7 +215,7 @@
             "name": "Idioma de la Página",
             "level": "A",
             "description": "El idioma humano predeterminado de cada página puede determinarse de forma programática.",
-            "title": "WCAG 3.1.1: Declarar el idioma de la pantalla"
+            "title": "Declarar el idioma de la pantalla"
           }
         }
       },
@@ -227,19 +227,19 @@
             "name": "Al Foco",
             "level": "A",
             "description": "Cuando cualquier componente de la interfaz recibe el foco, no inicia un cambio de contexto.",
-            "title": "WCAG 3.2.1: Redirección automática de inicio de sesión"
+            "title": "Redirección automática de inicio de sesión"
           },
           "2": {
             "name": "Al Introducir Datos",
             "level": "A",
             "description": "Cambiar la configuración de cualquier componente de la interfaz no provoca automáticamente un cambio de contexto.",
-            "title": "WCAG 3.2.2: Activación automática de inicio de sesión"
+            "title": "Activación automática de inicio de sesión"
           },
           "6": {
             "name": "Configuración Consistente",
             "level": "A",
             "description": "Los cambios en la configuración de cualquier componente de la interfaz de usuario no provocan un cambio de contexto automático a menos que el usuario haya sido advertido.",
-            "title": "WCAG 3.2.6: Botón de ayuda"
+            "title": "Botón de ayuda"
           }
         }
       },
@@ -251,19 +251,19 @@
             "name": "Identificación de Errores",
             "level": "A",
             "description": "Si se detecta automáticamente un error de entrada, se identifica el elemento en error y se describe el error al usuario en texto.",
-            "title": "WCAG 3.3.1: Identificación de errores"
+            "title": "Identificación de errores"
           },
           "2": {
             "name": "Etiquetas o Instrucciones",
             "level": "A",
             "description": "Se proporcionan etiquetas o instrucciones cuando el contenido requiere la entrada del usuario.",
-            "title": "WCAG 3.3.2: Etiquetas para añadir una tarjeta"
+            "title": "Etiquetas para añadir una tarjeta"
           },
           "7": {
             "name": "Identificación Redundante",
             "level": "A",
             "description": "Para contenido que requiere entrada del usuario, se proporcionan etiquetas o instrucciones redundantes cuando el contexto lo requiere.",
-            "title": "WCAG 3.3.7: Identificación redundante en formularios"
+            "title": "Campos repetidos"
           }
         }
       }
@@ -281,7 +281,7 @@
             "name": "Nombre, Rol, Valor",
             "level": "A",
             "description": "Para todos los componentes de la interfaz de usuario, el nombre y el rol pueden determinarse de forma programática; los estados, propiedades y valores pueden configurarse de manera programática.",
-            "title": "WCAG 4.1.2: Blob no legible"
+            "title": "Blob no legible"
           }
         }
       }
