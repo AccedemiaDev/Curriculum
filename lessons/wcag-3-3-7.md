@@ -19,10 +19,6 @@ La introducción de la contraseña dos veces obedece a una política de segurida
 
 Esta duplicación innecesaria de la entrada de correo electrónico crea dificultades significativas para usuarios con discapacidades cognitivas, de memoria o motoras, quienes deben recordar y volver a escribir exactamente la misma información. Además, para usuarios que utilizan tecnologías de asistencia como lectores de pantalla o sistemas de entrada por voz, esta repetición aumenta el tiempo necesario para completar el formulario y las posibilidades de cometer errores. La plataforma no ofrece ninguna opción para autocompletar este campo basándose en la entrada previa, lo que contradice directamente este criterio de éxito.
 
-## Solución
-
-Remover del formulario la validación del correo electrónico solicitado dos veces.
-
 ## Criterio de éxito
 
 Al completar un formulario dividido en etapas, los datos ingresados ​​deben solicitarse solo una vez durante el proceso, a menos que sea imprescindible (ejemplo: volver a ingresar una contraseña para su confirmación).

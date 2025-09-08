@@ -12,29 +12,6 @@ Al realizar un pago, este es medido por un temporizador de tres minutos que te o
 
 Esta limitación de tiempo afecta negativamente a usuarios con discapacidades motoras o cognitivas que pueden necesitar más tiempo para ingresar información de pago o tomar decisiones. Además, no se proporciona ninguna opción para extender el tiempo o pausar el contador, lo que genera frustración y posibles abandonos durante el proceso de compra.
 
-## Solución
-
-Es posible añadir un botón que permita extender la duración del contador por 30 minutos
-
-```javascript
-// Add 30 minutes to timer (up to max 3 hours)
-const extendTime = () => {
-  setTimeLeft(prevTime => {
-    const newTime = prevTime + extensionTime
-    return newTime <= maxTime ? newTime : maxTime
-  })
-}
-
-[...]
-
-<button
-  onClick={extendTime}
-  className="px-4 py-2 bg-blue-dark text-white rounded hover:bg-blue-darkest transition-colors"
-  disabled={timeLeft + extensionTime > maxTime}>
-  Añadir 30 minutos
-</button>
-```
-
 ## Criterio de éxito
 
 Si se define una función que requiere tiempo para ejecutarse y no es imprescindible (obligatorio desde un punto de vista legal), también se debe incluir una opción para apagarla o una opción para expandirla.

@@ -12,16 +12,6 @@ Dentro de la sección del blog, al terminar las publicaciones disponibles, el us
 
 Esta implementación representa un grave riesgo para usuarios con epilepsia fotosensible, ya que la exposición a dicho parpadeo puede desencadenar convulsiones. Además, incluso para usuarios sin esta condición, el parpadeo excesivo puede causar molestias visuales, distracciones y dificultar la concentración en el resto del contenido de la página.
 
-## Solución
-
-Es posible aumentar el intervalo entre parpadeos de 0.3 segundos a 0.5 segundos:
-
-```javascript
-animation: {
-  blink: 'blink 0.30s infinite',
-},
-```
-
 ## Criterio de éxito
 
 Ningún contenido de la página debe parpadear más de 3 veces por segundo, a menos que los flashes tengan poco contraste o poco rojo (consulte los criterios completos).

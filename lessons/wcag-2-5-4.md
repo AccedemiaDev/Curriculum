@@ -10,10 +10,6 @@ Esto implica que los controles deben estar acompañados de información contextu
 
 Insertar aquí la violación a la respectiva pauta que presenta la plataforma web inaccesible.
 
-## Solución
-
-Insertar aquí la solución a la respectiva violación de la pauta que presenta la plataforma web inaccesible.
-
 ## Criterio de éxito
 
 Insertar aquí el respectivo criterio de éxito. Se debe de tomar de la [documentación oficial](https://www.w3.org/WAI/) por *World Wide Web (W3C)*.

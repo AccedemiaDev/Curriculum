@@ -10,10 +10,6 @@ Esto implica que todos los campos de formulario deben estar correctamente identi
 
 El formulario para agregar una tarjeta dentro de CompraFácil no presenta ninguna instrucción o indicación sobre los datos que debe rellenar.
 
-## Solución
-
-Se debe de añadir una instrucción principal sobre el formulario tal cómo `<p className='text-lg'>Ingresa los datos de tu tarjeta de crédito a continuación</p>`, además que es posible adicionar detalles adicionales respecto a cada campo del formulario.
-
 ## Criterio de éxito
 
 Todas las etiquetas deben describir de forma clara e inequívoca el propósito de los campos del formulario.

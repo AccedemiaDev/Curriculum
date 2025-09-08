@@ -10,18 +10,6 @@ Estas alternativas permiten que el contenido se perciba a través de diferentes 
 
 La lista de productos del catálogo contienen un contenido visual cuyas imágenes no se acompañadas de un texto alternativo. Esta omisión impide que las personas usuarias con discapacidades visuales comprendan el contenido visual, ya que los lectores de pantalla no pueden interpretar imágenes sin descripciones textuales.
 
-## Solución
-
-Para cumplir con el criterio WCAG 1.1.1, es necesario añadir un texto alternativo (`alt`) descriptivo a cada imagen de producto. Este atributo permite que tecnologías de asistencia, como los lectores de pantalla, transmitan el significado de las imágenes a los usuarios con discapacidades visuales.
-
-```html
-<!-- Situación incorrecta -->
-<img src="camisa.jpg">
-
-<!-- Situación correcta -->
-<img src="camisa.jpg" alt="Camisa de algodón azul de manga larga">
-```
-
 ## Criterio de éxito
 
 Cualquier contenido "no textual" que sea relevante para comprender la información, debe incluir una descripción de texto alternativo (visible o no) para identificar el contenido.

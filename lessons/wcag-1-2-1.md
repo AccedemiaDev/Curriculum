@@ -10,20 +10,6 @@ Estas alternativas permiten que el contenido audiovisual se perciba a través de
 
 El contenido audivisual se encuentra recientemente añadido al sitio web por lo que no cuenta aún con subtítulos, pero se encuentra presente dentro del código una transcripción del mismo el cual no se encuentra dentro del sitio. La omisión de esta transcripción impide que las personas usuarias con discapacidades auditivas no logren comprender este contenido ya que no pueden acceder a un contenido equivalente a lo escuchado.
 
-## Solución
-
-Añadir la respectiva transcripción de la entrevista
-
-```javascript
-{/* Transcripción de la entrevista */}
-<h4 className='text-2xl font-semibold mb-4'>Transcripción</h4>
-{transcriptParagraphs.map((paragraph, index) => (
-  <p key={index} className='text-base mb-4'>
-    {paragraph}
-  </p>
-))}
-```
-
 ## Criterio de éxito
 
 Se debe proporcionar una de las siguientes alternativas para el contenido presentado:

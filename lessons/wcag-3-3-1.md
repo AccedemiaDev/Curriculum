@@ -12,14 +12,6 @@ Dentro del formulario para agregar una tarjeta de débito o crédito, al cometer
 
 Además, al depender únicamente del color para indicar el error, se excluye a usuarios con daltonismo o baja visión que podrían no percibir el cambio cromático. Esta falta de información detallada obliga a los usuarios a adivinar qué está mal, generando frustración, confusión y posibles abandonos del proceso de pago.
 
-## Solución
-
-Al momento de mostrar en pantalla un mensaje de error, este debe traer consigo:
-
-- Un cambio de color
-- Un mensaje de texto que indique que campo se encuentra erróneo junto con el por qué.
-- Un elemento adicional que permita resaltar el mensaje, tal como un bordado o un icono.
-
 ## Criterio de éxito
 
 Siempre que se muestre un mensaje de error, debe identificar claramente qué elemento generó el error de forma visual y audible (ejemplo: cambio de color en el elemento + un icono de alerta + un mensaje de texto).

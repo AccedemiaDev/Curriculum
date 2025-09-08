@@ -12,20 +12,6 @@ Estas alternativas permiten que el contenido se perciba a través de diferentes 
 
 El anuncio de contenido audivisual se encuentra disponible dentro del sitio web pero este no cuenta con subtítulos. La omisión de este elemento impide que las personas usuarias con discapacidades auditivas no logren comprender este contenido ya que no pueden acceder a un contenido equivalente a lo escuchado.
 
-## Solución
-
-Añadir el respectivo archivo de subtítulos dentro del elemento `<video>`
-
-```javascript
-<track
-  src={subtitlesUrl}
-  kind="subtitles"
-  srcLang="es"
-  label="Español"
-  default
-/>
-```
-
 ## Criterio de éxito
 
 Cualquier contenido pregrabado que contenga una pista de audio (ya sea sólo de audio o video) debe tener subtítulos.

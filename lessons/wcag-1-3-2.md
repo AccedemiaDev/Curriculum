@@ -12,26 +12,6 @@ Las barra de navegación de CompraFácil cuenta con una lista de enlaces que per
 
 Esta discrepancia afecta a aquellos usuarios que dependen de tecnología asistida, ya que el orden no es presentado en el respectivo orden en que debería estar.
 
-## Solución
-
-Remover las propiedades `flex-row reverse` y `space-x-reverse` del elemento `<navbar>`  y organizar la lista de enlaces al orden correcto:
-
-```javascript
-<nav>
-  <ul className='flex items-center space-x-4'>
-    <li className='text-white text-xl'>
-      <a href='/'>Catálogo</a>
-    </li>
-    <li className='text-white text-xl'>
-      <a href='/blog'>Blog</a>
-    </li>
-    <li className='text-white text-xl'>
-      <a href='assistance'>Ayuda</a>
-    </li>
-  </ul>
-</nav >
-```
-
 ## Criterio de éxito
 
 Cualquiera que sea el método de interacción, la presentación de información en la pantalla siempre debe tener una secuencia lógica.

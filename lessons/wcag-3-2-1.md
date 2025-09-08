@@ -12,17 +12,6 @@ En la barra de navegación al realizar un enfoque sobre el botón para iniciar s
 
 Esta redirección automática interrumpe el flujo de navegación, desorientando especialmente a usuarios con discapacidades cognitivas que pueden perder su ubicación en el sitio. Además, dificulta el uso del sitio para personas que utilizan lectores de pantalla o control por teclado, quienes necesitan explorar todos los elementos disponibles antes de decidir con cuál interactuar.
 
-## Solución
-
-Se debe eliminar el atributo `onFocus`, el cual es el que realiza una redirección a la página para iniciar sesión si el elemento `<a>` recibe un enfoque.
-
-```html
-<a href='/login'
-  className='flex items-center justify-center bg-blue-light h-full px-3 font-semibold text-lg rounded-md hover:bg-blue-medium-light'>
-  Iniciar sesión
-</a>
-```
-
 ## Criterio de éxito
 
 No se deben producir cambios contextuales que puedan desorientar a alguien desde el foco en cualquier elemento de la interfaz (ejemplo: abrir una ventana modal), sin confirmación directa (ejemplo: un botón de confirmación).
