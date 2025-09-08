@@ -12,19 +12,6 @@ Estas alternativas permiten que el contenido visual se perciba a través de dife
 
 El contenido audivisual de presentación de la empresa de CompraFácil no cuenta con un audio descriptivo que narre el contenido presentado dentro del mismo. La omisión de este elemento impide que las personas usuarias con discapacidad visual no puedan entender el contenido visual del mismo.
 
-## Solución
-
-Añadir el respectivo archivo de audiodescripción dentro del elemento `<video>`
-
-```javascript
-<track
-  src={audioDescriptionUrl}
-  kind="descriptions"
-  srcLang="es"
-  label="Descripción de audio"
-/>
-```
-
 ## Criterio de éxito
 
 Se debe proporcionar una audiodescripción o una transcripción textual descriptiva para todo el contenido de video pregrabado.

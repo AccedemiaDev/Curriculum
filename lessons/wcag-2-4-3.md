@@ -12,10 +12,6 @@ Dentro del formulario para agregar una dirección, la tabulación del contenido 
 
 Al no seguir el orden visual lógico, los usuarios pueden perderse en el formulario, omitir campos importantes o experimentar frustración al no poder predecir hacia dónde se dirigirá el enfoque siguiente, comprometiendo así la usabilidad y accesibilidad del proceso de registro de direcciones.
 
-## Solución
-
-Se deben remover los parámetros `tabIndex` a los elementos `input` del formulario para que el orden de la tabulación sea al que le corresponde: Barrio, dirección, receptor del pedido y botón para enviar el formulario.
-
 ## Criterio de éxito
 
 La interacción de los elementos enfocables en la pantalla debe ser siempre secuencial y lógica según el contenido presentado.

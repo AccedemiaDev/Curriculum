@@ -12,16 +12,6 @@ En la interfaz general de CompraFácil existe en la esquina superior izquierda d
 
 Esta implementación incorrecta genera una experiencia confusa para usuarios de tecnologías asistivas, ya que reciben información irrelevante que interrumpe el flujo de navegación. Además, al no identificar correctamente el propósito (o la ausencia de propósito) de este elemento visual, se crea ruido innecesario en la interfaz auditiva, dificultando la comprensión general de la estructura y contenido relevante de la página.
 
-## Solución
-
-Es posible utilizar el parámetro `aria-hidden` para ocultar de los lectores de pantalla el elemento gráfico
-
-```javascript
-<img 
-  src={blobSvg} aria-hidden="true" 
-  className='w-80 h-80 md:h-108 md:w-108 lg:h-128 lg:w-128'/>
-```
-
 ## Criterio de éxito
 
 Toda la tecnología de asistencia hace uso de las propiedades de nombre, función y valor para identificar correctamente los elementos estandarizados de HTML. Cualquier componente personalizado también debe traer estas marcas de manera adecuada.

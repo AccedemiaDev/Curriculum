@@ -12,18 +12,6 @@ Sobre la ventana de pago, al presionar sobre el botón para pagar, no importa si
 
 Al no poder abortar la acción una vez iniciada, estos usuarios pueden realizar compras no deseadas, generando frustración y posibles pérdidas económicas. Además, la ausencia de un mecanismo para confirmar o cancelar la acción antes de completarla viola directamente este criterio de accesibilidad.
 
-## Solución
-
-Se debe eliminar el trigger `onMouseDown` del botón de pago y solamente dejar el trigger `onClick`:
-
-```javascript
-<button
-  onClick={handlePayment}
-  className='h-9 w-48 bg-blue-dark text-white text-xl hover:bg-blue-darkest'>
-  Comprar
-</button>
-```
-
 ## Criterio de éxito
 
 Es posible que haya un clic o toque accidental en un determinado componente y si la persona lo nota (antes de soltar el botón pulsado o tocado), debe tener una forma de cancelar la activación accidental.

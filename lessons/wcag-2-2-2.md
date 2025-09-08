@@ -12,22 +12,6 @@ Dentro de la sección del Blog existe un anuncio parpadeante que anuncia las nue
 
 Este elemento animado distrae constantemente la atención del usuario y puede causar molestias significativas a personas con trastornos de atención o sensibilidad a destellos visuales. Al no proporcionar ningún mecanismo para detener, pausar u ocultar esta animación de manera rápida, los usuarios se ven obligados a lidiar con este contenido potencialmente perturbador, dificultando la lectura y comprensión del contenido principal del blog.
 
-## Solución
-
-Es posible disminuir la duración del anuncio parpadeante a una cantidad igual o menor que cinco segundos
-
-```javascript
-// Effect to stop blinking after 5 seconds
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsBlinking(false);
-    }, 5000); // 5000 milliseconds = 5 seconds
-
-    // Clean up timer on unmount
-    return () => clearTimeout(timer);
-}, []);
-```
-
 ## Criterio de éxito
 
 Cualquier elemento de la pantalla que tenga movimiento automático o parpadeo y que dure más de 5 segundos, debe tener un tipo de control donde la persona que lo usa pueda pausar, detener u ocultar.

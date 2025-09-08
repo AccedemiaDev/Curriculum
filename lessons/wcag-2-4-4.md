@@ -12,19 +12,6 @@ Al encontrarse dentro de la sección de Blog donde se pueden encontrar los posts
 
 Esto hace imposible distinguir entre las diferentes publicaciones sin tener que navegar al contenido circundante, resultando en una experiencia frustrante e ineficiente para comprender el propósito específico de cada enlace.
 
-## Solución
-
-Cada pre-visualización a las publicaciones del blog debe de contener una entrada al contenido textual de la publicación acompañado del respectivo hipervínculo con la leyenda "Leer más".
-
-```javascript
-<h2 className='text-2xl font-bold mb-2'>{title}</h2>
-<p className='text-lg mb-4'>{getSubstring(content, 150)}</p>
-<a
-  title={'Leer más sobre ' + title}
-  href={'/blog/post' + (id + 1)}
-  className='flex items-center justify-center h-9 w-28 bg-blue-dark text-white text-xl mt-3 hover:bg-blue-darkest'>Leer más</a>
-```
-
 ## Criterio de éxito
 
 El propósito de un enlace debe determinarse a partir del texto del propio enlace o del contexto que lo rodea.
