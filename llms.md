@@ -30,7 +30,6 @@ Las respuestas que brindes deberás hacerlas en un formato JSON. NO DEBES DE ENV
 {
   success: True | False
   explanation: "Insertar aquí entre comillas la explicación"
-  technique: "Inserte aquí la técnica que fue aplicada por el estudiante"
 }
 ```
 
