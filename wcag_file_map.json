@@ -2,37 +2,37 @@
   "1": {
     "1": {
       "1": {
-        "file": "/src/components/catalog/Carousel.jsx"
+        "file": "src/components/catalog/Carousel.jsx"
       }
     },
     "2": {
       "1": {
-        "file": "/src/components/posts/Post2.jsx"
+        "file": "src/components/posts/Post2.jsx"
       },
       "2": {
-        "file": "/src/components/posts/Post3.jsx"
+        "file": "src/components/posts/Post3.jsx"
       },
       "3": {
-        "file": "/src/components/posts/Post1.jsx"
+        "file": "src/components/posts/Post1.jsx"
       }
     },
     "3": {
       "1": {
-        "file": "/src/components/assistance/Assistance.jsx"
+        "file": "src/components/assistance/Assistance.jsx"
       },
       "2": {
-        "file": "/src/components/background/Header.jsx"
+        "file": "src/components/background/Header.jsx"
       },
       "3": {
-        "file": "/src/components/register/Register.jsx"
+        "file": "src/components/register/Register.jsx"
       }
     },
     "4": {
       "1": {
-        "file": "/src/components/register/Register.jsx"
+        "file": "src/components/register/Register.jsx"
       },
       "2": {
-        "file": "/src/components/catalog/Music.jsx"
+        "file": "src/components/catalog/Music.jsx"
       }
     }
   },
@@ -42,18 +42,18 @@
         "file": "/" 
       },
       "2": {
-        "file": "/src/components/payment/cart/Item.jsx"
+        "file": "src/components/payment/cart/Item.jsx"
       },
       "4": {
-        "file": "/src/components/catalog/Catalog.jsx"
+        "file": "src/components/catalog/Catalog.jsx"
       }
     },
     "2": {
       "1": {
-        "file": "/src/components/payment/Counter.jsx"
+        "file": "src/components/payment/Counter.jsx"
       },
       "2": {
-        "file": "/src/components/blog/Blog.jsx"
+        "file": "src/components/blog/Blog.jsx"
       }
     },
     "3": {
@@ -63,27 +63,27 @@
     },
     "4": {
       "1": {
-        "file": "/src/components/payment/Payment.jsx"
+        "file": "src/components/payment/Payment.jsx"
       },
       "2": {
-        "file": "/src/main.jsx"
+        "file": "src/main.jsx"
       },
       "3": {
-        "file": "/src/components/payment/location/add/AddLocation.jsx"
+        "file": "src/components/payment/location/add/AddLocation.jsx"
       },
       "4": {
-        "file": "/src/components/blog/Post.jsx"
+        "file": "src/components/blog/Post.jsx"
       }
     },
     "5": {
       "1": {
-        "file": "/src/components/catalog/Carousel.jsx"
+        "file": "src/components/catalog/Carousel.jsx"
       },
       "2": {
-        "file": "/src/components/payment/Payment.jsx"
+        "file": "src/components/payment/Payment.jsx"
       },
       "3": {
-        "file": "/src/components/catalog/Item.jsx"
+        "file": "src/components/catalog/Item.jsx"
       },
       "4": {
         "file": "/"
@@ -98,31 +98,31 @@
     },
     "2": {
       "1": {
-        "file": "/src/components/background/Header.jsx"
+        "file": "src/components/background/Header.jsx"
       },
       "2": {
-        "file": "/src/components/login/Login.jsx"
+        "file": "src/components/login/Login.jsx"
       },
       "6": {
-        "file": "/src/components/background/Header.jsx"
+        "file": "src/components/background/Header.jsx"
       }
     },
     "3": {
       "1": {
-        "file": "/src/components/payment/card/add/AddCard.jsx"
+        "file": "src/components/payment/card/add/AddCard.jsx"
       },
       "2": {
-        "file": "/src/components/payment/card/add/AddCard.jsx"
+        "file": "src/components/payment/card/add/AddCard.jsx"
       },
       "7": {
-        "file": "/src/components/register/Register.jsx"
+        "file": "src/components/register/Register.jsx"
       }
     }
   },
   "4": {
     "1": {
       "2": {
-        "file": "/src/components/background/Blob.jsx"
+        "file": "src/components/background/Blob.jsx"
       }
     }
   }
