@@ -1,0 +1,129 @@
+{
+  "1": {
+    "1": {
+      "1": {
+        "file": "/src/components/catalog/Carousel.jsx"
+      }
+    },
+    "2": {
+      "1": {
+        "file": "/src/components/posts/Post2.jsx"
+      },
+      "2": {
+        "file": "/src/components/posts/Post3.jsx"
+      },
+      "3": {
+        "file": "/src/components/posts/Post1.jsx"
+      }
+    },
+    "3": {
+      "1": {
+        "file": "/src/components/assistance/Assistance.jsx"
+      },
+      "2": {
+        "file": "/src/components/background/Header.jsx"
+      },
+      "3": {
+        "file": "/src/components/register/Register.jsx"
+      }
+    },
+    "4": {
+      "1": {
+        "file": "/src/components/register/Register.jsx"
+      },
+      "2": {
+        "file": "/src/components/catalog/Music.jsx"
+      }
+    }
+  },
+  "2": {
+    "1": {
+      "1": {
+        "file": "/" 
+      },
+      "2": {
+        "file": "/src/components/payment/cart/Item.jsx"
+      },
+      "4": {
+        "file": "/src/components/catalog/Catalog.jsx"
+      }
+    },
+    "2": {
+      "1": {
+        "file": "/src/components/payment/Counter.jsx"
+      },
+      "2": {
+        "file": "/src/components/blog/Blog.jsx"
+      }
+    },
+    "3": {
+      "1": {
+        "file": "/tailwind.config.js"
+      }
+    },
+    "4": {
+      "1": {
+        "file": "/src/components/payment/Payment.jsx"
+      },
+      "2": {
+        "file": "/src/main.jsx"
+      },
+      "3": {
+        "file": "/src/components/payment/location/add/AddLocation.jsx"
+      },
+      "4": {
+        "file": "/src/components/blog/Post.jsx"
+      }
+    },
+    "5": {
+      "1": {
+        "file": "/src/components/catalog/Carousel.jsx"
+      },
+      "2": {
+        "file": "/src/components/payment/Payment.jsx"
+      },
+      "3": {
+        "file": "/src/components/catalog/Item.jsx"
+      },
+      "4": {
+        "file": "/"
+      }
+    }
+  },
+  "3": {
+    "1": {
+      "1": {
+        "file": "/index.html"
+      }
+    },
+    "2": {
+      "1": {
+        "file": "/src/components/background/Header.jsx"
+      },
+      "2": {
+        "file": "/src/components/login/Login.jsx"
+      },
+      "6": {
+        "file": "/src/components/background/Header.jsx"
+      }
+    },
+    "3": {
+      "1": {
+        "file": "/src/components/payment/card/add/AddCard.jsx"
+      },
+      "2": {
+        "file": "/src/components/payment/card/add/AddCard.jsx"
+      },
+      "7": {
+        "file": "/src/components/register/Register.jsx"
+      }
+    }
+  },
+  "4": {
+    "1": {
+      "2": {
+        "file": "/src/components/background/Blob.jsx"
+      }
+    }
+  }
+}
