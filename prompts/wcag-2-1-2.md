@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: WCAG 2.1.2: No Keyboard Trap (Level A)
-- Criterio de éxito a evaluar: 2.1.2: Trampa de teclado en un producto
+- Título de la lección: WCAG 2.1.2: Trampa de teclado en un producto
+- Criterio de éxito a evaluar: 2.1.2: No Keyboard Trap (Level A)
 - Situación incorrecta: Mientras el usuario va navegando mediante el enfoque de los elementos, al entrar a los elementos interactuables de un producto, el enfoque quedará atrapado en este mismo (Keyboard Trap).
 - Situacion correcta: Mientras el usuario va navegando mediante el enfoque de los elementos, no deberá de quedarse atrapado en alguna sección de la misma.
 - Pieza de código inaccessible:
