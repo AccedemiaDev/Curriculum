@@ -1,4 +1,4 @@
-# WCAG 1.3.2: Orden linear de navegación
+# WCAG 1.3.2: Orden lineal de navegación
 
 ## Descripción
 

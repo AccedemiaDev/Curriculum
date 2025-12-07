@@ -1,6 +1,6 @@
 # Información
 
-- Título de la lección: WCAG 1.3.2: Orden linear en lista de enlaces de la navbar
+- Título de la lección: WCAG 1.3.2: Orden lineal en lista de enlaces de la navbar
 - Criterio de éxito a evaluar: 1.3.2: Meaningful Sequence (Level A)
 - Situación incorrecta: La lista de enlaces de la barra de navegación al ser navegada por medio del teclado, va de derecha a izquierda.
 - Situacion correcta: La lista de enlaces de la barra de navegación al ser navegada por medio del teclado, va de izquierda a derecha.
