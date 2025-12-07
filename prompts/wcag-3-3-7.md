@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 3.3.7: Campos repetidos
-- Criterio de éxito a evaluar: WCAG 3.3.7: Redundant Entry (Level A)
+- Título de la lección: WCAG 3.3.7: Campos repetidos
+- Criterio de éxito a evaluar: 3.3.7: Redundant Entry (Level A)
 - Situación incorrecta: El correo electrónico del usuario es solicitado dos veces.
 - Situacion correcta: El correo electrónico del usuario es solicitado una sola vez.
 - Pieza de código inaccessible:

@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 3.3.2: Etiquetas para añadir una tarjeta
-- Criterio de éxito a evaluar: WCAG 3.3.2: Labels or Instructions (Level A)
+- Título de la lección: WCAG 3.3.2: Etiquetas para añadir una tarjeta
+- Criterio de éxito a evaluar: 3.3.2: Labels or Instructions (Level A)
 - Situación incorrecta: El formulario no presenta ninguna instrucción o indicación sobre los datos que debe rellenar.
 - Situacion correcta: El formulario presenta instrucciones sobre los datos que debe rellenar.
 - Pieza de código inaccessible:

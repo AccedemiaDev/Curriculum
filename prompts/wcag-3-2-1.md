@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 3.2.1 Al recibir el foco
-- Criterio de éxito a evaluar: WCAG 3.2.1: On Focus (Level A)
+- Título de la lección: WCAG 3.2.1 Al recibir el foco
+- Criterio de éxito a evaluar: 3.2.1: On Focus (Level A)
 - Situación incorrecta: Al enfocar al botón de "Iniciar sesión", este se activará automáticamente.
 - Situacion correcta: Al enfocar al botón de "Iniciar sesión", no sucede un cambio contextual.
 - Pieza de código inaccessible:

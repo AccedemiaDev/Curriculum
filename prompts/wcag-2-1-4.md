@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 2.1.4 Shortcut para carrito de compras
-- Criterio de éxito a evaluar: WCAG 2.1.4: Character Key Shortcuts (Level A)
+- Título de la lección: WCAG 2.1.4 Shortcut para carrito de compras
+- Criterio de éxito a evaluar: 2.1.4: Character Key Shortcuts (Level A)
 - Situación incorrecta: Al presionar la tecla "C", redirecciona al carrito de compras.
 - Situacion correcta: No deben de existir atajos de teclado.
 - Pieza de código inaccessible:

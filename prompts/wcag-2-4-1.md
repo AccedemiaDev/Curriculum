@@ -1,7 +1,7 @@
 # Información
 
 - Título de la lección: WCAG 2.4.1: Saltar contenido
-- Criterio de éxito a evaluar: WCAG 2.4.1: Bypass Blocks (Level A)
+- Criterio de éxito a evaluar: 2.4.1: Bypass Blocks (Level A)
 - Situación incorrecta: No se utilizan encabezados `<h1>, <h2>, <h3>, <...>` para los títulos, sino que se utilizan elementos `<span>`
 - Situacion correcta: Se utilizan encabezados `<h1>, <h2>, <h3>, <...>` para los títulos
 - Pieza de código inaccessible:

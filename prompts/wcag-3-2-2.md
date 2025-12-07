@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 3.2.2: Activación automática de inicio de sesión
-- Criterio de éxito a evaluar: WCAG 3.2.2: On Input (Level A)
+- Título de la lección: WCAG 3.2.2: Activación automática de inicio de sesión
+- Criterio de éxito a evaluar: 3.2.2: On Input (Level A)
 - Situación incorrecta: Para entregar el formulario de inicio de sesión, el usuario debe de introducir sus credenciales. Una vez introducida la contraseña, dada una espera de 5 segundos el formulario será entregado de manera automática.
 - Situacion correcta: El formulario presenta un botón con la leyenda "Iniciar sesión" junto con un atributo submit. La funcionalidad de subido automático a partir del tiempo debe estar eliminada.
 - Pieza de código inaccessible:

@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 2.2.2: Anuncio parpadeante
-- Criterio de éxito a evaluar: WCAG 2.2.2: Pause, Stop, Hide (Level A)
+- Título de la lección: WCAG 2.2.2: Anuncio parpadeante
+- Criterio de éxito a evaluar: 2.2.2: Pause, Stop, Hide (Level A)
 - Situación incorrecta: Habrá un anuncio parpadeante anunciando promociones.
 - Situacion correcta: El anuncio parpadea pero se detiene después de 5 segundos. El parpadeo no debe de removerse.
 - Pieza de código inaccessible:

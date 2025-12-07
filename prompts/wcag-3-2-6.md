@@ -1,7 +1,7 @@
 # Información
 
-- Título de la lección: 3.2.6: Botón de ayuda
-- Criterio de éxito a evaluar: WCAG 3.2.6: Consistent Help (Level A)
+- Título de la lección: WCAG 3.2.6: Botón de ayuda
+- Criterio de éxito a evaluar: 3.2.6: Consistent Help (Level A)
 - Situación incorrecta: El botón de navegación solamente se encuentra cuando el usuario está en el Catálogo.
 - Situacion correcta: El botón de navegación siempre se encuentra disponible en todas las pantallas.
 - Pieza de código inaccessible:
